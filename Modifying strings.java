@@ -12,7 +12,10 @@ public class Main
 		String s1=new String("Hello World");
 		System.out.println(s1.substring(1,5));
 		System.out.println(s1.substring(2));
-		
+
+		System.out.println(s1);
+                System.out.println(s1.replace('H','h'));
+
 		
 	}
 }
